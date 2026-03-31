@@ -2,8 +2,8 @@ CC      = gcc
 CFLAGS  = -Wall -Wextra -g
 LIBS    = -lm
 
-TARGET  = test
-SRCS    = test.c utils.c lattice.c model.c metropolis.c
+TARGET  = main
+SRCS    = main.c utils.c lattice.c model.c metropolis.c
 OBJS    = $(SRCS:.c=.o)
 
 all: $(TARGET)
